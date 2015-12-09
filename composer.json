@@ -1,0 +1,26 @@
+{
+    "name": "rap2hpoutre/porto",
+    "description": "Proof-reading tool for PHP (spell checker, grammar fixer using LanguageTool)",
+    "license": "MIT",
+    "keywords": ["reading", "grammar", "spell", "checker", "laravel", "auto", "correct"],
+    "authors": [
+        {
+            "name": "rap2hpoutre",
+            "email": "raphaelht@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+      "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rap2hpoutre\\Porto\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rap2hpoutre\\Porto\\Test\\": "test"
+        }
+    }
+}
