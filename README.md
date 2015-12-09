@@ -1,4 +1,5 @@
 # Porto
+## TL;DR
 Proof-reading tool (spell checker, grammar fixer, etc.). Works for English, French, German, Polish, and more than 20 other languages, thanks to [LanguageTool](https://www.languagetool.org/). Install via composer, works with any of your favorite framework: Laravel, Slim, Symfony, etc.
 
 ## Install
@@ -9,7 +10,7 @@ composer require rap2hpoutre/porto
 
 ## Usage
 
-### Simple example
+### Quick start
 
 ``` php
 // Initialize Porto with your language.
