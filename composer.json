@@ -1,5 +1,5 @@
 {
-    "name": "rap2hpoutre/porto",
+    "name": "rap2hpoutre/voltaire",
     "description": "Proof-reading tool for PHP (spell checker, grammar fixer using LanguageTool)",
     "license": "MIT",
     "keywords": ["reading", "grammar", "spell", "checker", "laravel", "auto", "correct"],
@@ -15,12 +15,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Rap2hpoutre\\Porto\\": "src/"
+            "Rap2hpoutre\\Voltaire\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rap2hpoutre\\Porto\\Test\\": "test"
+            "Rap2hpoutre\\Voltaire\\Test\\": "test"
         }
     }
 }
