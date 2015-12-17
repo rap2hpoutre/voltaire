@@ -27,10 +27,11 @@ foreach($response->errors as $error) {
 
 ### Production usage
 According to [LanguageTool Wiki](http://wiki.languagetool.org/public-http-api), you should not use the public API
-of LanguageTool to send automated requests. That's what this package do :innocent:
+of LanguageTool to send automated requests. Oops, that's what we have done in quick start :innocent:
 > Access is currently limited to 20 requests per IP per minute.
+
 So, in production environment, you should use your own instance of LanguageTool, like this:
- ```
+ ```php
  // Initialize Voltaire with your language and your own instance
  $voltaire = new Rap2hpoutre\Voltaire\Voltaire('fr', 'http://localhost:8081');
  ```
