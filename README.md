@@ -17,10 +17,10 @@ composer require rap2hpoutre/voltaire
 $voltaire = new Rap2hpoutre\Voltaire\Voltaire('fr');
 
 // Process text and get the response.
-$response = $voltaire->process('Bonjour tous le monde.');
+$response = $voltaire->process('Bojnour tout le monde.');
 
 // Display all errors
 foreach($response->errors as $error) {
-    echo $error->message . "\n";
+    echo $error->msg . "\n";
 }
 ```

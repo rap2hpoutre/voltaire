@@ -1,26 +1,37 @@
 {
-    "name": "rap2hpoutre/voltaire",
-    "description": "Proof-reading tool for PHP (spell checker, grammar fixer using LanguageTool)",
-    "license": "MIT",
-    "keywords": ["reading", "grammar", "spell", "checker", "laravel", "auto", "correct"],
-    "authors": [
-        {
-            "name": "rap2hpoutre",
-            "email": "raphaelht@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require-dev": {
-      "phpunit/phpunit": "~4.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Rap2hpoutre\\Voltaire\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Rap2hpoutre\\Voltaire\\Test\\": "test"
-        }
+  "name": "rap2hpoutre/voltaire",
+  "description": "Proof-reading tool for PHP (spell checker, grammar fixer using LanguageTool)",
+  "license": "MIT",
+  "keywords": [
+    "reading",
+    "grammar",
+    "spell",
+    "checker",
+    "laravel",
+    "auto",
+    "correct"
+  ],
+  "authors": [
+    {
+      "name": "rap2hpoutre",
+      "email": "raphaelht@gmail.com"
     }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rap2hpoutre\\Voltaire\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rap2hpoutre\\Voltaire\\Test\\": "test"
+    }
+  }
 }
