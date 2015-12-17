@@ -25,7 +25,7 @@ foreach($response->errors as $error) {
 }
 ```
 
-### Production usage
+### Production
 According to [LanguageTool Wiki](http://wiki.languagetool.org/public-http-api), you should not use the public API
 of LanguageTool to send automated requests. Oops, that's what we have done in quick start :innocent:
 > Access is currently limited to 20 requests per IP per minute.
@@ -35,3 +35,10 @@ So, in production environment, you should use your own instance of LanguageTool,
  // Initialize Voltaire with your language and your own instance
  $voltaire = new Rap2hpoutre\Voltaire\Voltaire('fr', 'http://localhost:8081');
  ```
+
+## About
+François-Marie Arouet (French: [fʁɑ̃.swa ma.ʁi aʁ.wɛ]; 21 November 1694 – 30 May 1778), known by his nom de plume Voltaire (/voʊlˈtɛər/;[1] French: [vɔl.tɛːʁ]), was a French Enlightenment writer, historian, and philosopher famous for his wit, his attacks on the established Catholic Church, and his advocacy of freedom of religion, freedom of expression, and separation of church and state.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Voltaire_dictionary.jpg/220px-Voltaire_dictionary.jpg" alt="Drawing" height="250"/>
+
+_source: Wikipedia_
